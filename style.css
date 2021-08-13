@@ -1,0 +1,73 @@
+body{
+    position: relative;
+}
+.form-quis-exercise{
+    width: 100%;
+    padding: 20px;
+}
+.form-check {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-check .form-check-input{
+    margin-left: 1.5em;
+    cursor: pointer;
+}
+.form-check-label{
+    margin-left: 1.5em;
+    width: 80%;
+    cursor: pointer;
+}
+.questions{
+    margin-bottom: 80px;
+}
+
+.warning {
+    color: red;
+}
+
+.popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content{
+    background-color: #fff;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content h1{
+    color: royalblue;
+    font-size: 50px;
+    width: 90%;
+}
+.fechar{
+    background-color: royalblue;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
